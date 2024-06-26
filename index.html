@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vercel</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- google fonts -->
+
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://karmanivero.us/assets/images/logo-vercel.png"
+    />
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha385-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha385-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+   
+  <body>
+    <!-- navbar -->
+    <section class="firstNav ">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light" >
+        <!-- Container wrapper -->
+        <div class="container-fluid">
+          <!-- Toggle button -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- Navbar brand -->
+            <a class="navbar-brand mt-2 ms-3 mt-lg-0" href="#">
+              <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNYGO0yzxFnUiE8ZpNyDYMxSq1QTe2wRIqjw&s"
+                height="25"
+                alt="vercel logo"
+                loading="lazy"
+              /><span style="color: rgb(50, 49, 49);"> /</span>
+              <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/011/459/271/small_2x/shiny-gradient-circle-png.png"
+              height="25"
+              alt="gradient logo"
+              loading="lazy"
+            />
+            </a>
+            <!-- Left links -->
+            <ul class="navbar-nav me-auto mb-2 mt-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link text-light fw-semibold" href="#">John Doe's projects</a>
+              </li>
+             <li class="nav-item">
+                <button style="height: 27px;padding-top: 0;" class="btn btn-dark rounded-pill fw-bold mt-2">Hobby</button>
+             </li>
+             <li class="nav-item updown-arrow">
+              <div class="dropdown m-2">
+                <img class="dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false" height="25px" class="updown-arrow" src="https://static-00.iconduck.com/assets.00/expand-icon-1366x2048-0ye7mrys.png" alt=""></a>
+                
+                <div class="dropdown-menu p-3" aria-labelledby="dropdownMenuButton">
+                  <div class="row">
+                    <div class="col-6 left-col">
+                      <ul class="list-unstyled">
+                        <li>
+                          <div class="container">
+                            <div class="input-group search-bar ">
+                                <span class="input-group-text p-0 border-0 ">
+                                    <button class="btn"><i class="fas fa-search "></i></button>
+                                </span>
+                                <input type="search" class="form-control border-0" placeholder="Find Team..." aria-label="Search"> 
+                            </div>
+                          </div>
+                        </li>
+                        <hr>
+                        <li class="dropdown-header">Teams</li>
+                        <li class="bg-dark p-1 rounded"><a class=" fw-semibold bg-dark" href="#"><img
+                            src="https://static.vecteezy.com/system/resources/thumbnails/011/459/271/small_2x/shiny-gradient-circle-png.png"
+                            height="25"
+                            alt="gradient logo"
+                            loading="lazy"
+                          /> John Doe's projects</a>
+                        </li>
+                        <li class="p-1 mt-1"><a class=" fw-semibold bg-dark" href="#">
+                          <a href=""><i class="fa fa-plus-circle" aria-hidden="true"></i>
+                           Create new team</a>
+                        </li>
+                        
+                      </ul>
+                    </div>
+                    <div class="col-6 right-col">
+                      <ul class="list-unstyled">
+                        <div class="container">
+                          <div class="input-group search-bar ">
+                              <span class="input-group-text p-0 border-0 ">
+                                  <button class="btn"><i class="fas fa-search "></i></button>
+                              </span>
+                              <input type="search" class="form-control border-0" placeholder="Find project..." aria-label="Search"> 
+                          </div>
+                        </div>
+                        <hr>
+                        <li class="dropdown-header">Project</li>
+                        
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+             </li>
+            </ul>
+         
+
+          <!-- Right elements -->
+           
+          <div class=" d-flex align-items-center">
+            <ul class="rt-nav navbar-nav me-auto mb-2 mt-2 mb-lg-0">
+                <li class=" feedback">
+                  <a class="btn btn-outline-secondary">Feedback</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Changelog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Help</a>
+                </li>
+                <li class="nav-item me-3">
+                  <a class="nav-link" href="#">Docs</a>
+                </li>
+           
+
+            <!-- Notifications -->
+                <li class="noti-img">
+                    <img height="37px" src="assets/notification-icon.png">
+                </li>
+            <!-- Avatar -->
+            <li class=" p-1 ps-2">
+              <div class="dropdown dropstart">
+              <img class="dropdown-toggle"  type="button" data-bs-toggle="dropdown" aria-expanded="false" height="30px" src="https://cdn.pixabay.com/photo/2023/07/10/05/27/circle-8117443_1280.png">
+              <ul class="dropdown-menu text-secondary">
+                <li><a class="dropdown-item" href="#"><pre>Account Seetings</pre></a></li>
+                <li><a class="dropdown-item" href="#"><pre>Create Team            <i class="fas fa-plus-circle"></i></pre></a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"><pre>Command Menu   <button class="btn btn-outline-secondary p-0 text-secondary">ctrl</button> <button class="btn btn-outline-secondary pt-0 pb-0 text-secondary">k</button></pre></a></li>
+                <li><a class="dropdown-item pb-0" href="#"><pre>Theme              <img width="30px" src="https://thumb.ac-illust.com/95/95b2895466a4ea5be9cda6f2a70c0568_t.jpeg" alt="">
+                </pre></a></li>
+                <hr>
+                <li><a class="dropdown-item" href="#"><pre>Home Page             <img height="23px" src="https://png.pngtree.com/png-vector/20191005/ourmid/pngtree-beautiful-triangle-vector-line-icon-png-image_1795275.jpg" alt=""></pre></a></li>
+                <li><a class="dropdown-item" href="#"><pre>Log Out                <img height="20px" src="/assets/exit-icon.png" alt=""></pre></a></li>
+                <li class="d-grid gap-2">
+                  <button class="btn btn-light m-2">Upgrade to Pro</button>
+                </li>
+              </ul>
+            </div>
+          </li>
+            </ul>
+          </div> </div>
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar 2 -->
+       
+      <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Overview</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Integrations</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Activity</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Domains</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Usage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Monitoring</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Storage</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">AI</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Settings</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    </section>
+    
+    <!-- search bar -->
+     <hr class="custom-hr">
+     <section id="search-area">
+      <div class="container">
+        <div class="row align-items-center pt-3">
+          <div class="col-md-7">
+            <div class="form-outline">
+              <div class="input-group">
+                <div class="input-group search-bar">
+                  <span class="input-group-text p-0 border-0 ">
+                      <button class="btn bg-dark border-search"><img width="20px" class="bg-dark" src="/assets/search-icon.png" alt=""></button>
+                  </span>
+                  <input type="search" cid="form1" class="form-control  bg-dark border-search" placeholder="Search Repositories and Projects..." aria-label="Search"> 
+              </div>
+
+                  <!-- <span class="input-group-text bg-dark">
+                      <button class="btn "><i class="fas fa-search"></i></button>
+                  </span>
+                  <input type="search" id="form1" class="form-control  bg-dark border-search" placeholder="Search Repositories and Projects..." aria-label="Search" /> -->
+              </div>
+            </div>
+          </div>
+        
+          <div class="col-md-5">
+            <nav class="navbar navbar-expand-md navbar-light">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle border-class" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Sort by activity
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-light" href="#">Sort by activity</a></li>
+                        <li><a class="dropdown-item text-light" href="#">Sort by name</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item border-class">
+                    <a class="nav-link" href="#"><i class="fa fa-th" ></i>  <i class="fa-solid fa-list"></i></a>
+                  </li>
+                  <li class="nav-item dropdown border-class-new">
+                    <a class="nav-link dropdown-toggle form-control" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Add New...
+                    </a>
+                    <ul class="dropdown-menu  ">
+                        <li><a class="dropdown-item text-secondary" href="#">Project</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Domains</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Store</a></li>
+                        <li><a class="dropdown-item text-secondary" href="#">Team Member</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+    </div>
+
+     </section>
+
+  </body>
+</html>

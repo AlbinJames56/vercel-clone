@@ -1,0 +1,104 @@
+*{
+    background: #000;
+}
+/* navbar styles */
+.rt-nav a{
+    color: rgb(145, 145, 145);
+}
+.rt-nav a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.feedback a:hover{
+    background: #2b2b2b;
+        color: rgb(255, 255, 255);
+    
+}
+.noti-img img:hover{
+    height:39px ;
+}
+li{
+    cursor: pointer;
+}
+/* right settings profile dropdown */
+pre{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+li .nav-link{
+    color: rgb(139, 139, 139);
+}
+li .nav-link:hover{
+    color: rgb(255, 255, 255);
+}
+hr{
+    background: #000;
+}
+.dropdown ul{
+    background: #000;
+    border-color: rgb(48, 47, 47);
+    border-radius: 20px;
+}
+.dropdown .dropdown-item:hover{
+    background: #434343;
+}
+.dropdown pre:hover{
+    background: #434343;
+}
+
+
+/* styles for the updown arrow dropdown */
+.updown-arrow:hover{
+    background: #303030;
+}
+.updown-arrow .dropdown-menu {
+    width: 500px; /* Adjust the width of the dropdown menu */
+  background: #000;
+  border-color: rgb(93, 93, 94);
+  }
+  .updown-arrow  .dropdown-menu .col-6 {
+    width: 50%; /* Ensure columns take equal width */
+  }
+  
+
+  /* styles for search area */
+#search-area .input-group-text{
+    background: #000;
+}
+ .search-bar button{
+    width: 40px;
+    background-color: #000000;
+    border-bottom-right-radius: 0;
+    border-top-right-radius: 0;
+    border-right: none;
+ }
+ .search-bar button:hover{
+    
+    background-color: #000000;
+ }
+ .left-col{
+    border-right:1px solid #434343;
+ }
+ .left-col a{
+    text-decoration:none ;
+    color: aliceblue;
+    
+ }
+ .navbar-nav .border-class{
+    border-radius: 5px;
+    border: 1px solid rgb(75, 75, 75);
+   margin-right: 10px;
+}
+.navbar-nav .border-class-new{
+    border-radius: 5px;
+    background: #ffffff;
+    color: #000;
+}
+.input-group .border-search{
+    border: 1px solid rgb(75, 75, 75);
+    height: 42px;
+}
+.custom-hr {
+    border: none;
+    border-top: 1px solid #000000; /* Customize the color of the line */
+    margin: 0; /* Adjust the margin as needed */
+}
