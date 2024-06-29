@@ -75,6 +75,14 @@ hr{
     border-top-right-radius: 0;
     border-right: none;
  }
+ .input-group.search-bar .form-control {
+    width: calc(100% - 40px); /* Adjust the width as needed */
+    color: white; /* Ensure the text color is white for visibility */
+  }
+ .input-group.search-bar .form-control::placeholder {
+    color: white; /* Set the placeholder color to white for visibility */
+    opacity: 0.7; /* Adjust the opacity for better visibility */
+  }
  .search-bar button:hover{
     
     background-color: #000000;
@@ -89,10 +97,24 @@ hr{
  }
  .navbar-nav .border-class{
     border-radius: 5px;
+    margin-top: 3px;
+    width: 6rem;
     border: 1px solid rgb(75, 75, 75);
    margin-right: 10px;
+   display: flex;
+   justify-content: center;
+}
+
+.navbar-nav .sort-width{
+    width: 9.6rem;
+    margin-top: 3px;
+    border-radius: 5px;
+    border: 1px solid rgb(75, 75, 75);
+   margin-right: 10px;
+    
 }
 .navbar-nav .border-class-new{
+    margin-top: 3px;
     border-radius: 5px;
     background: #ffffff;
     color: #000;
@@ -123,11 +145,15 @@ hr{
     text-decoration: none;
     color: #666666; 
 }
+.card-bg{
+    background-color: #383740;
+}
 .icon {
     width: 50px;
     height: 50px;
+    border-radius: 50%;
     background-color: #eee;
-    border-radius: 15px;
+    
     display: flex;
     align-items: center;
     justify-content: center;
@@ -157,9 +183,34 @@ hr{
 
 .text1 {
     font-size: 14px;
-    font-weight: 600
+    font-weight: 600;
+    color: #ffffff;
+    
 }
 
 .text2 {
     color: #a5aec0
+}
+
+
+/* footer style */
+p .grid-icon{
+    border: 1px solid #666666;
+    border-radius: 2px;
+    padding: 1.5px;
+}
+.theme-bg{
+    border:1px solid rgb(81, 81, 80);
+    border-radius: 50px;
+    height: 35px;
+    width: 100px;
+    margin-left: 30px;
+}
+.comp-bg{
+    border:1px solid rgb(130, 130, 129);
+    border-radius: 50%;
+    padding: 2px;
+}
+.legal-dropdown li a{
+    color: #ffffff;
 }

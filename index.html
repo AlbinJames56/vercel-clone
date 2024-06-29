@@ -222,33 +222,28 @@
      <section id="search-area">
       <div class="container">
         <div class="row align-items-center pt-3">
-          <div class="col-md-7">
+          <div class="col-md-8">
             <div class="form-outline">
               <div class="input-group">
                 <div class="input-group search-bar">
                   <span class="input-group-text p-0 border-0 ">
                       <button class="btn bg-dark border-search"><img width="20px" class="bg-dark" src="/assets/search-icon.png" alt=""></button>
                   </span>
-                  <input type="search" cid="form1" class="form-control  bg-dark border-search" placeholder="Search Repositories and Projects..." aria-label="Search"> 
+                  <input type="search" cid="form1" class="form-control bg-dark border-search" placeholder="Search Repositories and Projects..." aria-label="Search">
               </div>
-
-                  <!-- <span class="input-group-text bg-dark">
-                      <button class="btn "><i class="fas fa-search"></i></button>
-                  </span>
-                  <input type="search" id="form1" class="form-control  bg-dark border-search" placeholder="Search Repositories and Projects..." aria-label="Search" /> -->
               </div>
             </div>
           </div>
         
-          <div class="col-md-5">
+          <div class="col-md-4">
             <nav class="navbar navbar-expand-md navbar-light">
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle border-class" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <li class="nav-item dropdown ">
+                    <a class="nav-link dropdown-toggle sort-width" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Sort by activity
                     </a>
                     <ul class="dropdown-menu">
@@ -257,7 +252,7 @@
                     </ul>
                   </li>
                   <li class="nav-item border-class">
-                    <a class="nav-link" href="#"><i class="fa fa-th" ></i>  <i class="fa-solid fa-list"></i></a>
+                    <a class="nav-link" href="#"><i class="fa fa-th" ></i>  <i class="fa-solid fa-list ms-2"></i></a>
                   </li>
                   <li class="nav-item dropdown border-class-new">
                     <a class="nav-link dropdown-toggle form-control" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -281,21 +276,41 @@
 
      <!-- cards -->
       <section id="cards">
-        <div class="container  pt-3">
+        <div class="container  pt-3 pb-5">
           <div class="row">
+            <div class="col-md-4">
+              <div class="card p-3 mb-2 bg-dark">
+                  <div class="d-flex justify-content-between bg-dark">
+                      <div class="d-flex flex-row align-items-center  bg-dark">
+                          <div class="icon"> <img src="https://static-00.iconduck.com/assets.00/netflix-icon-icon-1024x1024-w4ni4f6d.png" alt="" class="icon"> </div>
+                          <div class="ms-2 c-details  bg-dark">
+                              <h6 class="mb-0 text-light  bg-dark">netflix-clone-app</h6><a class="bg-dark" href="https://netflix-clone-topaz-mu.vercel.app/"> netflix-clone-topaz-mu.vercel.app</a>
+                          </div>
+                      </div>
+                      <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
+                  </div>
+                  <div class="mt-1 ps-2 p-1 git-link rounded-pill card-bg">
+                    <a class=" text-light card-bg" href="https://github.com/AlbinJames56/Netflix-clone.git"><i class="fa-brands fa-github card-bg"></i>Netflix-clone</a>
+                  </div>
+                  <div class="status-time bg-dark">
+                    <span class="bg-dark text-secondary">completed</span><br>
+                    <span class="bg-dark text-secondary">36d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
+                  </div>
+              </div>
+          </div>
               <div class="col-md-4">
                   <div class="card p-3 mb-2 bg-dark">
                       <div class="d-flex justify-content-between bg-dark">
                           <div class="d-flex flex-row align-items-center  bg-dark">
-                              <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
+                              <div class="icon"> <img  class="icon" src="https://mir-s3-cdn-cf.behance.net/projects/404/b3664d178061509.Y3JvcCw1MjM2LDQwOTYsMjU5LDA.jpg" alt=""> </div>
                               <div class="ms-2 c-details  bg-dark">
                                   <h6 class="mb-0 text-light  bg-dark">gnarly-fish-web</h6><a class="bg-dark" href="https://gnarly-fish-web.vercel.app/"> gnarly-fish-web.vercel.app </a>
                               </div>
                           </div>
                           <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
                       </div>
-                      <div class="mt-1 ps-2 p-1 git-link rounded-pill bg-secondary">
-                        <a class=" text-light bg-secondary" href="https://github.com/AlbinJames56/gnarly-fish-web.git"><i class="fa-brands fa-github bg-secondary"></i>  AlbinJames56/gnarly-fish-web </a>
+                      <div class="mt-1 ps-2 p-1 git-link rounded-pill card-bg">
+                        <a class=" text-light card-bg" href="https://github.com/AlbinJames56/gnarly-fish-web.git"><i class="fa-brands fa-github card-bg"></i>  JohnDoe's/gnarly-fish-web </a>
                       </div>
                       <div class="status-time bg-dark">
                         <span class="bg-dark text-secondary">completed</span><br>
@@ -307,108 +322,143 @@
                   <div class="card p-3 mb-2 bg-dark">
                       <div class="d-flex justify-content-between bg-dark">
                           <div class="d-flex flex-row align-items-center  bg-dark">
-                              <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
+                              <div class="icon"><img class="icon" src="https://cdn.pixabay.com/photo/2014/04/02/11/12/cup-305515_1280.png" alt=""> </div>
                               <div class="ms-2 c-details  bg-dark">
-                                  <h6 class="mb-0 text-light  bg-dark">gnarly-fish-web</h6><a class="bg-dark" href="https://gnarly-fish-web.vercel.app/"> gnarly-fish-web.vercel.app </a>
+                                  <h6 class="mb-0 text-light  bg-dark">coffe-beans-web</h6><a class="bg-dark" href="https://coffe-beans-web-l8do.vercel.app/">coffe-beans-web-l8do.vercel.app/ </a>
                               </div>
                           </div>
                           <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
                       </div>
-                      <div class="mt-1 ps-2 p-1 git-link rounded-pill bg-secondary">
-                        <a class=" text-light bg-secondary" href="https://github.com/AlbinJames56/gnarly-fish-web.git"><i class="fa-brands fa-github bg-secondary"></i>  AlbinJames56/gnarly-fish-web </a>
+                      <div class="mt-1 ps-2 p-1 git-link rounded-pill card-bg">
+                        <a class=" text-light card-bg" href="https://github.com/AlbinJames56/Coffe-beans-web.git"><i class="fa-brands fa-github card-bg"></i>  JohnDoe's/Coffe-beans-web </a>
                       </div>
                       <div class="status-time bg-dark">
                         <span class="bg-dark text-secondary">completed</span><br>
-                        <span class="bg-dark text-secondary">5d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
+                        <span class="bg-dark text-secondary">9d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
                       </div>
                   </div>
               </div>
-              <div class="col-md-4">
-                  <div class="card p-3 mb-2 bg-dark">
-                      <div class="d-flex justify-content-between bg-dark">
-                          <div class="d-flex flex-row align-items-center  bg-dark">
-                              <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
-                              <div class="ms-2 c-details  bg-dark">
-                                  <h6 class="mb-0 text-light  bg-dark">gnarly-fish-web</h6><a class="bg-dark" href="https://gnarly-fish-web.vercel.app/"> gnarly-fish-web.vercel.app </a>
-                              </div>
-                          </div>
-                          <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
-                      </div>
-                      <div class="mt-1 ps-2 p-1 git-link rounded-pill bg-secondary">
-                        <a class=" text-light bg-secondary" href="https://github.com/AlbinJames56/gnarly-fish-web.git"><i class="fa-brands fa-github bg-secondary"></i>  AlbinJames56/gnarly-fish-web </a>
-                      </div>
-                      <div class="status-time bg-dark">
-                        <span class="bg-dark text-secondary">completed</span><br>
-                        <span class="bg-dark text-secondary">5d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
-                      </div>
-                  </div>
-              </div>
-
+              
+              
+              
           </div>
           <div class="row mt-4">
-              <div class="col-md-4">
-                  <div class="card p-3 mb-2 bg-dark">
-                      <div class="d-flex justify-content-between bg-dark">
-                          <div class="d-flex flex-row align-items-center  bg-dark">
-                              <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
-                              <div class="ms-2 c-details  bg-dark">
-                                  <h6 class="mb-0 text-light  bg-dark">gnarly-fish-web</h6><a class="bg-dark" href="https://gnarly-fish-web.vercel.app/"> gnarly-fish-web.vercel.app </a>
-                              </div>
+            <div class="col-md-4">
+              <div class="card p-3 mb-2 bg-dark">
+                  <div class="d-flex justify-content-between bg-dark">
+                      <div class="d-flex flex-row align-items-center  bg-dark">
+                          <div class="icon"><img src="https://t3.ftcdn.net/jpg/05/68/86/76/360_F_568867614_1fqZVYONX1GDUql7ZCWj98LVsOPaKOkk.jpg" alt="" class="icon"></i> </div>
+                          <div class="ms-2 c-details  bg-dark">
+                              <h6 class="mb-0 text-light  bg-dark">headphone-store</h6><a class="bg-dark" href="https://headphone-store-ten.vercel.app/">headphone-store-ten.vercel.app</a>
                           </div>
-                          <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
                       </div>
-                      <div class="mt-1 ps-2 p-1 git-link rounded-pill bg-secondary">
-                        <a class=" text-light bg-secondary" href="https://github.com/AlbinJames56/gnarly-fish-web.git"><i class="fa-brands fa-github bg-secondary"></i>  AlbinJames56/gnarly-fish-web </a>
-                      </div>
-                      <div class="status-time bg-dark">
-                        <span class="bg-dark text-secondary">completed</span><br>
-                        <span class="bg-dark text-secondary">5d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
-                      </div>
+                      <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
+                  </div>
+                  <div class="mt-1 ps-2 p-1 git-link rounded-pill card-bg">
+                    <a class=" text-light card-bg" href="https://github.com/AlbinJames56/HeadphoneStore.git"><i class="fa-brands fa-github card-bg"></i>  JohnDoe's/HeadphoneStore</a>
+                  </div>
+                  <div class="status-time bg-dark">
+                    <span class="bg-dark text-secondary">completed</span><br>
+                    <span class="bg-dark text-secondary">11d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
                   </div>
               </div>
-              <div class="col-md-4">
-                  <div class="card p-3 mb-2 bg-dark">
-                      <div class="d-flex justify-content-between bg-dark">
-                          <div class="d-flex flex-row align-items-center  bg-dark">
-                              <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
-                              <div class="ms-2 c-details  bg-dark">
-                                  <h6 class="mb-0 text-light  bg-dark">gnarly-fish-web</h6><a class="bg-dark" href="https://gnarly-fish-web.vercel.app/"> gnarly-fish-web.vercel.app </a>
-                              </div>
+          </div>
+            <div class="col-md-4">
+              <div class="card p-3 mb-2 bg-dark">
+                  <div class="d-flex justify-content-between bg-dark">
+                      <div class="d-flex flex-row align-items-center  bg-dark">
+                          <div class="icon"><img class="icon" src="https://cdn.pixabay.com/photo/2019/10/23/08/03/woman-4570763_960_720.jpg">
                           </div>
-                          <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
+                          <div class="ms-2 c-details  bg-dark">
+                              <h6 class="mb-0 text-light  bg-dark">sample-portfolio </h6><a class="bg-dark" href="https://sample-portfolio-blond.vercel.app/"> sample-portfolio-blond.vercel.app</a>
+                          </div>
                       </div>
-                      <div class="mt-1 ps-2 p-1 git-link rounded-pill bg-secondary">
-                        <a class=" text-light bg-secondary" href="https://github.com/AlbinJames56/gnarly-fish-web.git"><i class="fa-brands fa-github bg-secondary"></i>  AlbinJames56/gnarly-fish-web </a>
-                      </div>
-                      <div class="status-time bg-dark">
-                        <span class="bg-dark text-secondary">completed</span><br>
-                        <span class="bg-dark text-secondary">5d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
-                      </div>
+                      <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
+                  </div>
+                  <div class="mt-1 ps-2 p-1 git-link rounded-pill card-bg">
+                    <a class=" text-light card-bg" href="https://github.com/AlbinJames56/samplePortfolio.git"><i class="fa-brands fa-github card-bg"></i>  /JohnDoe's/samplePortfolio </a>
+                  </div>
+                  <div class="status-time bg-dark">
+                    <span class="bg-dark text-secondary">completed</span><br>
+                    <span class="bg-dark text-secondary">15d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
                   </div>
               </div>
-              <div class="col-md-4">
-                  <div class="card p-3 mb-2 bg-dark">
-                      <div class="d-flex justify-content-between bg-dark">
-                          <div class="d-flex flex-row align-items-center  bg-dark">
-                              <div class="icon"> <i class="bx bxl-mailchimp"></i> </div>
-                              <div class="ms-2 c-details  bg-dark">
-                                  <h6 class="mb-0 text-light  bg-dark">gnarly-fish-web</h6><a class="bg-dark" href="https://gnarly-fish-web.vercel.app/"> gnarly-fish-web.vercel.app </a>
-                              </div>
-                          </div>
-                          <div class="badge bg-dark"> <img class="bg-dark me-2" height="25px" src="/assets/flow-monitoring-icon.png" alt=""><i class="fa-solid fa-ellipsis bg-dark"></i> </div>
-                      </div>
-                      <div class="mt-1 ps-2 p-1 git-link rounded-pill bg-secondary">
-                        <a class=" text-light bg-secondary" href="https://github.com/AlbinJames56/gnarly-fish-web.git"><i class="fa-brands fa-github bg-secondary"></i>  AlbinJames56/gnarly-fish-web </a>
-                      </div>
-                      <div class="status-time bg-dark">
-                        <span class="bg-dark text-secondary">completed</span><br>
-                        <span class="bg-dark text-secondary">5d ago <i class="fas fa-code-merge bg-dark"></i>master</span>
-                      </div>
-                  </div>
-              </div>
-
+          </div>
+       
           </div>
         </div>
       </section>
+
+      <!-- footer -->
+       <section id="footer" class="bg-dark">
+        <!-- Footer -->
+            <footer class="text-center text-lg-start container bg-dark">
+              <div class="row d-flex p-4 bg-dark">
+                <div class="col-md-4 bg-dark d-flex">
+                      <img src="https://img.icons8.com/?size=100&id=RptV7GaBNyF9&format=png&color=ffffff" height="25"
+                      alt="vercel logo" class="bg-dark">
+                      <p class="bg-dark text-secondary">© 2024 🔵 <span class="text-primary bg-dark">All systems normal</span></a></p>
+                </div>
+                <div class="col-md-4 bg-dark"></div>
+                <div class="col-md-4 bg-dark d-flex">
+                  <p class="bg-dark text-secondary">Command Menu <img width="23" class="grid-icon"  src="https://img.icons8.com/?size=100&id=115221&format=png&color=ffffff" alt="grid-2"/>
+                  <img width="23" class="grid-icon" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3FnErjMt_e6AXs7C0tq9kV4YR8DPOlH2fLA&s" alt="">
+                    <div class="bg-dark theme-bg">
+                       <img width="32" class="bg-dark comp-bg" src="https://img.icons8.com/?size=100&id=59767&format=png&color=ffffff" alt="">
+                       <img width="25" class="bg-dark" src="https://img.icons8.com/?size=100&id=648&format=png&color=ffffff" alt="">
+                       <img width="25" class="bg-dark" src="https://img.icons8.com/?size=100&id=zp0tpGqvgQc2&format=png&color=ffffff" alt=""></p>
+                    </div>
+                 
+
+                </div>
+                <div class="bg-dark row">
+                  <div class="col-md-6 bg-dark">
+                    <div class="row bg-dark">
+                      <div class="col-lg-2 bg-dark d-flex">
+                        <img width="25" class="bg-dark" src="https://img.icons8.com/?size=100&id=62856&format=png&color=ffffff" alt="">
+                        
+                        <img width="25" class="bg-dark ms-3" src="https://img.icons8.com/?size=100&id=ZNMifeqJbPRv&format=png&color=ffffff" alt="">
+                      </div>
+                      <div class="col-lg-2 bg-dark text-secondary">Home</div>
+                      <div class="col-lg-3 bg-dark text-secondary">Documentation</div>
+                      <div class="col-lg-2 bg-dark text-secondary">Guides</div>
+                      <div class="col-lg-1 bg-dark text-secondary">Help</div>
+                      <div class="col-lg-2 bg-dark text-secondary">Home</div>
+                      
+                      
+                    </div>
+                  </div>
+                    <div class="col-md-6 bg-dark">
+                      <div class="row ">
+                        <div class="col-lg-3 bg-dark text-secondary">Contact Sales</div>
+                      <div class="col-lg-1 bg-dark text-secondary">Blog</div>
+                      <div class="col-lg-2 bg-dark text-secondary">Changelog</div>
+                      <div class="col-lg-2 bg-dark text-secondary">Pricing</div>
+                      <div class="col-lg-2 bg-dark text-secondary">Enterprise</div>
+                      <div class="col-lg-2 bg-dark text-secondary dropdown dropdown-toggle"role="button" data-bs-toggle="dropdown" aria-expanded="false">legal
+                        <ul class="dropdown-menu legal-dropdown">
+                          <li><a class="dropdown-item" href="#">Privacy Policy</a></li>
+                          <li><a class="dropdown-item" href="#">Trademark Policy</a></li>
+                          <li><a class="dropdown-item" href="#">Inactivity Policy</a></li>
+                          <li><a class="dropdown-item" href="#">DMCA Policy</a></li>
+                          <li><a class="dropdown-item" href="#">Support Terms</a></li>
+                          <li><a class="dropdown-item" href="#">DPA</a></li>
+                          <li><a class="dropdown-item" href="#">SLA</a></li>
+                          <li><a class="dropdown-item" href="#">Sub-processors</a></li>
+                          <li><a class="dropdown-item" href="#">Cookie Preferences</a></li>
+                          <li><a class="dropdown-item" href="#">Event Terms and conditions</a></li>
+                          <li><a class="dropdown-item" href="#">Event Code of Conduct</a></li>
+                          <li><a class="dropdown-item" href="#">Job Applicant Privacy Notice</a></li>
+                          
+                        </ul>
+                      </div>
+                      </div>
+                    </div>
+                  
+                </div>
+              
+            </footer>
+<!-- Footer -->
+       </section>
   </body>
 </html>
